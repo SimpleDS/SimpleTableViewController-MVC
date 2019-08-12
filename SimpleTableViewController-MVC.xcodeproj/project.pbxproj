@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		20E756CA2301E0F20027BF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E756C92301E0F20027BF51 /* AppDelegate.m */; };
-		20E756CD2301E0F20027BF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E756CC2301E0F20027BF51 /* ViewController.m */; };
 		20E756D02301E0F20027BF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E756CE2301E0F20027BF51 /* Main.storyboard */; };
 		20E756D22301E0F40027BF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E756D12301E0F40027BF51 /* Assets.xcassets */; };
 		20E756D52301E0F40027BF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E756D32301E0F40027BF51 /* LaunchScreen.storyboard */; };
 		20E756D82301E0F40027BF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E756D72301E0F40027BF51 /* main.m */; };
 		20E756E22301E0F40027BF51 /* SimpleTableViewController_MVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E756E12301E0F40027BF51 /* SimpleTableViewController_MVCTests.m */; };
 		20E756ED2301E0F40027BF51 /* SimpleTableViewController_MVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E756EC2301E0F40027BF51 /* SimpleTableViewController_MVCUITests.m */; };
+		20E756FE230203FB0027BF51 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E756FD230203FB0027BF51 /* TableViewController.m */; };
+		20E75705230206F00027BF51 /* Destination.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E75704230206F00027BF51 /* Destination.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 		20E756C52301E0F20027BF51 /* SimpleTableViewController-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleTableViewController-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E756C82301E0F20027BF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20E756C92301E0F20027BF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20E756CB2301E0F20027BF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		20E756CC2301E0F20027BF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		20E756CF2301E0F20027BF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20E756D12301E0F40027BF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20E756D42301E0F40027BF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		20E756E82301E0F40027BF51 /* SimpleTableViewController-MVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SimpleTableViewController-MVCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20E756EC2301E0F40027BF51 /* SimpleTableViewController_MVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController_MVCUITests.m; sourceTree = "<group>"; };
 		20E756EE2301E0F40027BF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E756FC230203FB0027BF51 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		20E756FD230203FB0027BF51 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		20E75703230206F00027BF51 /* Destination.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Destination.h; sourceTree = "<group>"; };
+		20E75704230206F00027BF51 /* Destination.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Destination.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +106,8 @@
 			children = (
 				20E756C82301E0F20027BF51 /* AppDelegate.h */,
 				20E756C92301E0F20027BF51 /* AppDelegate.m */,
-				20E756CB2301E0F20027BF51 /* ViewController.h */,
-				20E756CC2301E0F20027BF51 /* ViewController.m */,
+				20E75701230206D40027BF51 /* Storage */,
+				20E756FA230203C60027BF51 /* UI Layer */,
 				20E756CE2301E0F20027BF51 /* Main.storyboard */,
 				20E756D12301E0F40027BF51 /* Assets.xcassets */,
 				20E756D32301E0F40027BF51 /* LaunchScreen.storyboard */,
@@ -130,6 +133,40 @@
 				20E756EE2301E0F40027BF51 /* Info.plist */,
 			);
 			path = "SimpleTableViewController-MVCUITests";
+			sourceTree = "<group>";
+		};
+		20E756FA230203C60027BF51 /* UI Layer */ = {
+			isa = PBXGroup;
+			children = (
+				20E756FB230203DA0027BF51 /* Controllers */,
+			);
+			path = "UI Layer";
+			sourceTree = "<group>";
+		};
+		20E756FB230203DA0027BF51 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20E756FC230203FB0027BF51 /* TableViewController.h */,
+				20E756FD230203FB0027BF51 /* TableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		20E75701230206D40027BF51 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				20E75702230206DB0027BF51 /* Models */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		20E75702230206DB0027BF51 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20E75703230206F00027BF51 /* Destination.h */,
+				20E75704230206F00027BF51 /* Destination.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E756CD2301E0F20027BF51 /* ViewController.m in Sources */,
 				20E756D82301E0F40027BF51 /* main.m in Sources */,
+				20E756FE230203FB0027BF51 /* TableViewController.m in Sources */,
+				20E75705230206F00027BF51 /* Destination.m in Sources */,
 				20E756CA2301E0F20027BF51 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,14 +474,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U54HPP4QGQ;
 				INFOPLIST_FILE = "SimpleTableViewController-MVC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.SimpleTableViewController-MVC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,14 +492,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U54HPP4QGQ;
 				INFOPLIST_FILE = "SimpleTableViewController-MVC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylansewell.ios.SimpleTableViewController-MVC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
